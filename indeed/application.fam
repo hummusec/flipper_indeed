@@ -1,0 +1,20 @@
+App(
+    appid="indeed",
+    name="Dolphin Indeed",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="indeed_app",
+    requires=[
+        "gui",
+        "storage",
+        "notification",
+        "dialogs",
+    ],
+    stack_size=1 * 1024,
+    order=1,
+    fap_icon="icons/Hi_10x10.png",
+    fap_category="Cheats",
+    fap_icon_assets="icons",
+    fap_version=(0, 1),
+    fap_description="Indeed",
+)
